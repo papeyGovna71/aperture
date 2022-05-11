@@ -1,0 +1,135 @@
+// Обнуление
+* {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: auto;
+    background-color: black;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 18 / 1920 * 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #181818;
+}
+
+%options {
+    display: flex;
+    justify-content: right;
+    div {
+        display: flex;
+        margin-right: 16 / 1440 * 100vw;
+        height: 16 / 1440 * 100vw;
+        img {
+            height: 100%;
+        }
+        p {
+            margin-left: 6 / 1440 * 100vw;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12 / 1440 * 100vw;
+            color: #FFFFFF;
+        }
+    }
+}
+
+%button {
+    display: flex;
+    justify-content: space-between;
+    width: 143 / 1440 * 100vw;
+    padding: 9 / 1440 * 100vw 15 / 1440 * 100vw 5 / 1440 * 100vw 15 / 1440 * 100vw;
+    border-radius: 15 / 1440 * 100vw;
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15 / 1440 * 100vw;
+    line-height: 20 / 1440 * 100vw;
+    letter-spacing: 0.4 / 1440 * 100vw;
+    color: #000000;
+    div {
+        margin: -4 / 1440 * 100vw 0px 0px -11 / 1440 * 100vw;
+        width: 32 / 1440 * 100vw;
+        height: 32 / 1440 * 100vw;
+        border-radius: 35%;
+        background-color: black;
+        transition: 0.25s;
+    }
+    &:hover > div {
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,275 @@
+footer {
+    margin-top: 200 / 1440 * 100vw;
+    .container {
+        margin: 0 auto;
+        width: 1168 / 1440 * 100vw;
+        .level-1 {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 36 / 1440 * 100vw;
+            border-bottom: 1.5 / 1440 * 100vw solid white;
+            .footer-logo {
+                width: 600 / 1440 * 100vw;
+                a {
+                    img {
+                        width: 128 / 1440 * 100vw;
+                        height: 31 / 1440 * 100vw;
+                    }
+                }
+                p {
+                    margin-top: 20 / 1440 * 100vw;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13 / 1440 * 100vw;
+                    line-height: 20 / 1440 * 100vw;
+                    color: #C0C0C0;
+                }
+            }
+            .link {
+                width: 220 / 1440 * 100vw;
+                h1 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14 / 1440 * 100vw;
+                    line-height: 20 / 1440 * 100vw;
+                    letter-spacing: 2 / 1440 * 100vw;
+                    text-transform: uppercase;
+                    color: #C0C0C0;
+                }
+                a {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14 / 1440 * 100vw;
+                    line-height: 30 / 1440 * 100vw;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .level-2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 36 / 1440 * 100vw;
+            padding-bottom: 36 / 1440 * 100vw;
+            border-bottom: 1.5 / 1440 * 100vw solid white;
+            span {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                div {
+                    h1 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14 / 1440 * 100vw;
+                        line-height: 20 / 1440 * 100vw;
+                        letter-spacing: 2 / 1440 * 100vw;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                    p {
+                        margin-top: 20 / 1440 * 100vw;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13 / 1440 * 100vw;
+                        line-height: 20 / 1440 * 100vw;
+                        color: #C0C0C0;
+                    }
+                }
+                form {
+                    width: 456 / 1440 * 100vw;
+                    height: 50 / 1440 * 100vw;
+                    border: 1 / 1440 * 100vw solid #E5E7EB;
+                    border-radius: 12 / 1440 * 100vw;
+                    background-color: #FFFFFF;
+                    input {
+                        margin-left: 17 / 1440 * 100vw;
+                        width: 370 / 1440 * 100vw;
+                        height: 100%;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16 / 1440 * 100vw;
+                        line-height: 20 / 1440 * 100vw;
+                        color: #494949;
+                        background: none;
+                    }
+                    button {
+                        padding: 6 / 1440 * 100vw 16 / 1440 * 100vw;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12 / 1440 * 100vw;
+                        line-height: 18 / 1440 * 100vw;
+                        border-radius: 11 / 1440 * 100vw;
+                        color: black;
+                        background-color: black;
+                    }
+                }
+            }
+            .none {
+                display: none;
+            }
+        }
+        .level-3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 56 / 1440 * 100vw;
+            padding-bottom: 20 / 1440 * 100vw;
+            h1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14 / 1440 * 100vw;
+                line-height: 20 / 1440 * 100vw;
+                color: #C0C0C0;
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                width: 112 / 1440 * 100vw;
+                a {
+                    img {
+                        width: 24 / 1440 * 100vw;
+                        height: 24 / 1440 * 100vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    footer {
+        margin-top: 121 / 575 * 100vw;
+        .container {
+            margin: 0 auto;
+            width: 520 / 575 * 100vw;
+            .level-1 {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 30 / 575 * 100vw;
+                border-bottom: 1.5 / 575 * 100vw solid white;
+                .footer-logo {
+                    width: auto;
+                    a {
+                        img {
+                            width: 128 / 575 * 100vw;
+                            height: 31 / 575 * 100vw;
+                        }
+                    }
+                    p {
+                        width: 213 / 575 * 100vw;
+                        margin-top: 20 / 575 * 100vw;
+                        font-size: 13 / 575 * 100vw;
+                        line-height: 20 / 575 * 100vw;
+                    }
+                }
+                .link {
+                    width: 193 / 575 * 100vw;
+                    h1 {
+                        font-size: 14 / 575 * 100vw;
+                        line-height: 20 / 575 * 100vw;
+                        letter-spacing: 2 / 575 * 100vw;
+                    }
+                    a {
+                        font-size: 14 / 575 * 100vw;
+                        line-height: 30 / 575 * 100vw;
+                    }
+                }
+                .none {
+                    display: none;
+                }
+            }
+            .level-2 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30 / 575 * 100vw;
+                padding-bottom: 30 / 575 * 100vw;
+                border-bottom: 1.5 / 575 * 100vw solid white;
+                span {
+                    display: block;
+                    width: auto;
+                    div {
+                        h1 {
+                            width: 170 / 575 * 100vw;
+                            font-size: 14 / 575 * 100vw;
+                            line-height: 20 / 575 * 100vw;
+                            letter-spacing: 2 / 575 * 100vw;
+                        }
+                        p {
+                            margin-top: 20 / 575 * 100vw;
+                            font-size: 13 / 575 * 100vw;
+                            line-height: 20 / 575 * 100vw;
+                        }
+                    }
+                    form {
+                        margin-top: 20 / 575 * 100vw;
+                        width: 297 / 575 * 100vw;
+                        height: 46 / 575 * 100vw;
+                        border: 1 / 575 * 100vw solid #E5E7EB;
+                        border-radius: 12 / 575 * 100vw;
+                        input {
+                            margin-left: 10 / 575 * 100vw;
+                            width: 220 / 575 * 100vw;
+                            font-size: 16 / 575 * 100vw;
+                            line-height: 20 / 575 * 100vw;
+                        }
+                        button {
+                            padding: 6 / 575 * 100vw 12 / 575 * 100vw;
+                            font-size: 12 / 575 * 100vw;
+                            line-height: 18 / 575 * 100vw;
+                            border-radius: 11 / 575 * 100vw;
+                        }
+                    }
+                }
+                .link {
+                    display: block;
+                    width: 193 / 575 * 100vw;
+                    h1 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14 / 575 * 100vw;
+                        line-height: 20 / 575 * 100vw;
+                        letter-spacing: 2 / 575 * 100vw;
+                        text-transform: uppercase;
+                        color: #C0C0C0;
+                    }
+                    a {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14 / 575 * 100vw;
+                        line-height: 30 / 575 * 100vw;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .level-3 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 51 / 575 * 100vw;
+                padding-bottom: 0 / 575 * 100vw;
+                h1 {
+                    font-size: 12 / 575 * 100vw;
+                    line-height: 20 / 575 * 100vw;
+                }
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 112 / 575 * 100vw;
+                    a {
+                        img {
+                            width: 24 / 575 * 100vw;
+                            height: 24 / 575 * 100vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

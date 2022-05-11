@@ -1,0 +1,137 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90 / 1440 * 100vw;
+    background-color: #181818;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 24 / 1440 * 100vw;
+        width: 1148 / 1440 * 100vw;
+        .header-logo {
+            img {
+                margin-top: 8 / 1440 * 100vw;
+                width: 128 / 1440 * 100vw;
+            }
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            margin: 13 / 1440 * 100vw 0px 0px 300 / 1440 * 100vw;
+            width: 494 / 1440 * 100vw;
+            a {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15 / 1440 * 100vw;
+                line-height: 20 / 1440 * 100vw;
+                color: #FFFFFF;
+            }
+        }
+        .link {
+            border-radius: 14 / 1440 * 100vw;
+            padding: 11 / 1440 * 100vw 20 / 1440 * 100vw;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16 / 1440 * 100vw;
+            // line-height: 20 / 1440 * 100vw;
+            letter-spacing: 0.4 / 1440 * 100vw;
+            color: #000000;
+            background-color: #FFFFFF;
+        }
+        .menu-burger {
+            display: none;
+        }
+    }
+}
+
+#menu-burger {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    &:target > .container {
+        left: 0;
+    }
+    #box-fixed {
+        position: fixed;
+        width: 10 / 575 * 100vw;
+        height: 10 / 575 * 100vw;
+        top: 0;
+        left: 0;
+    }
+    .close {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .container {
+        position: fixed;
+        top: 90 / 575 * 100vw;
+        left: -250 / 575 * 100vw;
+        height: 1500 / 575 * 100vw;
+        width: 250 / 575 * 100vw;
+        background-color: #000000;
+        transition: 0.4s;
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 69 / 575 * 100vw 0px 0px 35 / 575 * 100vw;
+            height: 261 / 575 * 100vw;
+            a {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        height: 90 / 575 * 100vw;
+        .container {
+            margin-top: 24 / 575 * 100vw;
+            width: 520 / 575 * 100vw;
+            .header-logo {
+                img {
+                    margin-top: 10 / 575 * 100vw;
+                    width: 128 / 575 * 100vw;
+                }
+            }
+            .menu {
+                display: none;
+            }
+            .link {
+                margin-left: 140 / 575 * 100vw;
+                border-radius: 14 / 575 * 100vw;
+                padding: 9 / 575 * 100vw 20 / 575 * 100vw;
+                font-size: 16 / 575 * 100vw;
+                letter-spacing: 0.4 / 575 * 100vw;  
+            }
+            .menu-burger {
+                display: block;
+                img {
+                    width: 44 / 575 * 100vw;
+                }
+            }
+        }
+    }}
